@@ -1,4 +1,5 @@
 #딕셔너리
+a=dict()
 a.keys() #키값들을 반환해줌
 list(a.keys()) #3.0버전 이후 리스트형으로 키값반환
 a.values() #value 값을 반환해줌
