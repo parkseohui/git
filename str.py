@@ -18,6 +18,15 @@ month=9
 
 print("i'm %d %d" % (year,month))
 
+"i eat {0} apples".format(3)
+
+age=25
+f.'나는 내년이면 {age+1}살이 된다'
+
+#포캣코드와 숫자
+"%10s" % "hi"
+"%0.4f" % 3.141592
+
 #function
 a.count('i') #갯수세기
 a.find('i') #위치반환 없으면 -1을 반환
@@ -30,4 +39,6 @@ a.rstrip() #오른쪽공백지우기
 a.strip() #양쪽공백 지우기
 a.replace("life", "my life") #대체하기
 a.split() #문자열 나누기
-a.split(',') #,기준으로 나누기 
+a.split(',') #,기준으로 나누기
+
+
