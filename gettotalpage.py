@@ -1,3 +1,5 @@
+#게시판페이징
+
 def getTotalPage(m, n):
     if m % n == 0:
         return m // n
