@@ -13,5 +13,4 @@ for i in num:
     if count%2==0 and i.isdigit():
         print(i,count)
         num=num.replace(num[count-1],'*')
-        num2=num
-print(num2)
+print(num)
