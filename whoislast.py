@@ -32,5 +32,45 @@ initial data:
 10 3
 
 answer:
+while len(size)!=1:
 
 '''
+size,n=map(int,input('입력하세요').strip().split())
+n_list=list(range(1,size+1))
+
+n
+count = 1
+n_list
+count
+n_list
+
+#n_list 추출할 리스트, n: n번째 건너뛰기, count: 현재 위치 n만큼되면 0으로 초기화
+def recursive(n_list, n, count):
+    #print(n_list)
+    if len(n_list) == 1:
+        return n_list
+    else:
+        new_list=[]
+        for i in range(len(n_list)):
+            if count == n: # n번째가 되면 append를 쓰지않고 넘어감.
+                count = 1
+                continue
+            new_list.append(n_list[i])
+            count += 1
+        #print(new_list)
+        return recursive(new_list, n, count)
+
+recursive(n_list, n, count)
+new_list
+n_list
+
+for i in range(len(size)):
+    if count==2:
+        continue
+    list1.append(size[count])
+    count+=1
+    if count==2:
+        count=0
+
+list1
+size
