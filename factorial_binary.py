@@ -7,4 +7,3 @@ def two_binary(n):
         print(n%2,end='')
 
 two_binary(18)
-    
